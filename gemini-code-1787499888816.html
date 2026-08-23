@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Divyanshi Pathak</title>
+    
+    <!-- 1. EXTERNAL CSS: Linked here -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- 2. INTERNAL CSS: Defined within the <style> tags -->
+    <style>
+        .header-container {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .section-title {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        .job-title {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .date-location {
+            font-style: italic;
+            color: #555;
+            float: right;
+        }
+        .clear {
+            clear: both;
+        }
+        ul {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-container">
+        <!-- 3. INLINE CSS: Defined directly on the HTML elements using the style attribute -->
+        <h1 style="margin: 0; color: #2980b9; font-size: 2.5em;">Divyanshi Pathak</h1>
+        <p style="margin: 5px 0 0 0; font-size: 1.1em;">
+            <span style="color: #e74c3c;">Email:</span> divyanshipathak17@gmail.com | 
+            <span style="color: #e74c3c;">Mobile:</span> +91 7460064793 | 
+            Bengaluru, Karnataka
+        </p>
+    </div>
+
+    <h2 class="section-title">Education</h2>
+    <div>
+        <span class="job-title">Master of Computer Applications</span>
+        <span class="date-location">2025 – 2027 | Bengaluru, India</span>
+        <br>
+        <em>Nitte Meenakshi Institute of Technology (CGPA: 9.38)</em>
+    </div>
+    <div style="margin-top: 10px;">
+        <span class="job-title">Bachelor of Computer Applications</span>
+        <span class="date-location">2022 – 2025 | Bengaluru, India</span>
+        <br>
+        <em>ISBR Business School, Bangalore University (CGPA: 8.9)</em>
+    </div>
+
+    <h2 class="section-title">Skills Summary</h2>
+    <ul>
+        <li><strong>Programming Languages:</strong> Python, C/C++, SQL, Java, JavaScript</li>
+        <li><strong>AI / ML:</strong> Machine Learning, Generative AI, Agentic AI, LLM Prompting & Guardrails</li>
+        <li><strong>Tools & Frameworks:</strong> Pandas, NumPy, Scikit-learn, TensorFlow, Seaborn, Matplotlib</li>
+        <li><strong>Data & Cloud:</strong> MongoDB, SQLite3, Power BI, Tableau, Excel, AWS</li>
+    </ul>
+
+    <h2 class="section-title">Experience</h2>
+    <div>
+        <span class="job-title">Data Analytics Intern - EI Systems</span>
+        <span class="date-location">Mar 2025 – May 2025 | Noida, India</span>
+        <div class="clear"></div>
+        <ul>
+            <li>Conducted hypothesis testing on personalized messaging campaigns, leading to a 20% increase in platform participation through data-driven intervention strategies.</li>
+            <li>Developed an interactive student progress dashboard using Flask and Plotly Express, enabling real-time tracking of engagement metrics for educators and program managers.</li>
+            <li>Automated data extraction and cleaning workflows, reducing data preparation time by 40% for weekly reporting cycles.</li>
+        </ul>
+    </div>
+    <div style="margin-top: 15px;">
+        <span class="job-title">Data Analyst Intern - Sentinal Innovation</span>
+        <span class="date-location">Aug 2024 – Jan 2025 | Bengaluru, India</span>
+        <div class="clear"></div>
+        <ul>
+            <li>Analyzed large-scale datasets to surface actionable business insights and trends, contributing to dashboards that directly enhanced organizational decision-making.</li>
+            <li>Owned end-to-end data cleaning, visualization, and findings presentation, ensuring data quality and clarity for cross-functional stakeholders.</li>
+        </ul>
+    </div>
+
+    <h2 class="section-title">Projects</h2>
+    <div>
+        <span class="job-title">Agentic AI Pipeline for Healthcare Data Stewardship & Entity Resolution</span>
+        <p style="margin: 2px 0; font-style: italic;">HCO/HCP Master Data Deduplication using Agentic AI, Fuzzy Matching & LLM Enrichment</p>
+        <ul>
+            <li>Built a modular agentic AI pipeline to autonomously deduplicate HCO/HCP master records by integrating Google Search API enrichment, multi-dimensional fuzzy matching with tiered confidence scoring, and a geocoding layer to resolve address ambiguity.</li>
+            <li>Engineered LLM enrichment for ambiguous record pairs with structured prompts and agent skill files enforcing explicit guardrails against hallucination.</li>
+        </ul>
+    </div>
+    <div style="margin-top: 15px;">
+        <span class="job-title">Weed Detection using YOLOv7</span>
+        <p style="margin: 2px 0; font-style: italic;">Precision Agriculture — Real-Time Object Detection & Localization</p>
+        <ul>
+            <li>Achieved 98% accuracy in identifying and localizing multiple weed species in agricultural fields using a fine-tuned YOLOv7 architecture.</li>
+            <li>Trained on a custom dataset of 5,000 annotated images using transfer learning for fast convergence and strong generalization.</li>
+            <li>Deployed for real-time inference, reducing manual labor by 30% and delivering measurable improvements in crop yield.</li>
+        </ul>
+    </div>
+
+    <h2 class="section-title">Certifications</h2>
+    <ul>
+        <li><strong>Applied Data Science Lab Certificate</strong> (WorldQuant University, 2024) - Built forecast models, pipelines, and dashboards across 8 global DS projects; awarded Badge of Excellence. Exposure: ARIMA, GARCH, Random Forest, PCA, A/B Testing, SQL, MongoDB.</li>
+        <li><strong>Generative AI Leader Certification</strong> (Google Cloud Skills Boost, 2026) - Completed a 5-course path on Gen AI foundations, agentic AI, and applied Gen AI tools.</li>
+        <li><strong>AWS Academy Graduate — Cloud Foundations</strong> (AWS, Feb 2026) - Completed 20 hours of training on core AWS services, cloud infrastructure, security, and architecture fundamentals.</li>
+    </ul>
+
+</body>
+</html>
